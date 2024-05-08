@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <title>Pic2</title>
+</head>
+<body class="flex flex-col h-screen relative bg-red-800">
+    <div class="absolute inset-0 flex items-center ml-96">
+        <img src="Images/Pizza2.png" class="absolute inset-0 object-cover w-full h-full">
+    </div>
+    <div class="nav-container relative z-10 mt-10">
+        <nav class="flex items-center mx-16 ">
+            <ul class="flex text-center text-white mx-32 ">
+                <li class="mx-10 font-bold text-lg">Home 
+                    <i class="fa-solid fa-caret-down"></i>
+                </li>
+                <li class="mx-10 font-bold text-lg">Menu</li>
+                <li class="mx-10 font-bold text-lg">Pages
+                    <i class="fa-solid fa-caret-down"></i>
+                </li>
+                <li class="mx-10 font-bold text-lg">User Dashboard</li>
+                <li class="mx-10 -mt-2">
+                    <form action="/search" method="get">
+                        <input class="rounded-lg h-10 pl-4 placeholder-gray-700 bg-red-500 border-4 border-red-900" type="text" name="q" placeholder="Search...">
+                    </form>
+                </li>
+                <li>
+                    <i class="fa-brands fa-gratipay fa-2xl mx-8"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-cart-shopping fa-2xl "></i>
+                </li>
+                <li class="mx-10">
+                    <button class="text-white font-semibold bg-green-800 rounded-xl h-10 w-20 -mt-2 hover:bg-white">
+                        Log in
+                    </button>
+                </li>   
+                <li>
+                    <button class="text-white font-semibold bg-green-800 rounded-xl h-10 w-20 -mt-2 -mx-4 hover:bg-red-500">
+                        Sign Up
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="flex items-center text-justify relative z-10 ">
+        <h1 class="text-white text-6xl font-semibold mt-40 mx-56 leading-snug">
+            Crafting Your  <br>
+            Exceptional Dining <br>
+            <span class="text-green-600">Reservations</span>
+        </h1>
+    </div>
+    <div class="flex relative z-10">
+        <h2 class="mx-56 mt-8 text-white text-lg ">
+            Reservation is a step into a world of gastronomic wonder. <br>
+            Reserve your table today and let us paint your culinary<br>
+            dreams into reality 
+         </h2>
+    </div>
+    <div class="flex relative z-10 mt-8">
+        <div class="w-96 h-20 border border-white rounded-lg flex items-center mx-56">
+            <div class=" flex items-center w-28 h-14 mx-2 bg-green-500 rounded-lg border border-green-900 ">
+                <i class="fa-solid fa-truck text-white mx-4"></i>
+                <span class="text-white -mx-4 font-medium ">Delivery</span>
+            </div>
+            <div class=" flex items-center w-28 h-14 mx-2 bg-green-500 rounded-lg border border-green-900 ">
+                <i class="fa-solid fa-location-dot text-white mx-4"></i>
+                <span class="text-white -mx-3 font-medium ">Pick Up</span>
+            </div>
+            <div class=" flex items-center w-28 h-14 mx-2 bg-green-500 rounded-lg border border-green-900 ">
+                <i class="fa-solid fa-utensils text-white mx-4"></i>
+                <span class="text-white -mx-3 font-medium ">Dine In</span>
+            </div>
+        
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
